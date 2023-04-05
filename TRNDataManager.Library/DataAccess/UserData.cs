@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TRNDataManager.Library.Internal.DataAccess;
-using TRNDataManager.Library.Models;
+using TRMDataManager.Library.Internal.DataAccess;
+using TRMDataManager.Library.Models;
 
-namespace TRNDataManager.Library.DataAccess
+namespace TRMDataManager.Library.DataAccess
 {
     public class UserData
     {

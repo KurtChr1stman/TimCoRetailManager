@@ -392,9 +392,9 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TRNDataManager.Library\TRNDataManager.Library.csproj">
+    <ProjectReference Include="..\TRNDataManager.Library\TRMDataManager.Library.csproj">
       <Project>{46F73CF9-0477-4298-91D6-8803FE7163FB}</Project>
-      <Name>TRNDataManager.Library</Name>
+      <Name>TRMDataManager.Library</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
