@@ -29,7 +29,9 @@ namespace TRMDesktopUI
 
         protected override void Configure()
         {
-            _container.Instance(_container);
+            _container.Instance(_container)
+                .PerRequest<IProductEndpoint, ProductEndpoint>();
+           
 
             _container
                 .Singleton<IWindowManager, WindowManager>()
@@ -47,7 +49,7 @@ namespace TRMDesktopUI
 
         protected override void OnStartup(object sender, StartupEventArgs e)
         {
-            DisplayRootViewForAsync<ShellViewModel>();
+            DisplayRootViewFor<ShellViewModel>();
         }
 
         protected override object GetInstance(Type service, string key)
