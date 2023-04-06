@@ -23,7 +23,7 @@ namespace TRMDesktopUI.ViewModels
 
             _events.Subscribe(this);
             
-            ActivateItem(_container.GetInstance<LoginViewModel>());
+            ActivateItem(IoC.Get<LoginViewModel>());
         }
 
         public void Handle(LogOnEvent message)
