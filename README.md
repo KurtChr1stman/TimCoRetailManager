@@ -1,2 +1,2 @@
 # Tim CoRetail Manager
-A Retail Management System Built By TimCo Enterprise Solutions
+A Retail Management System
